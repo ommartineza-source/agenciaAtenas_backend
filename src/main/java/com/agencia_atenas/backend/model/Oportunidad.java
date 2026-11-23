@@ -1,0 +1,31 @@
+package com.agencia_atenas.backend.model;
+
+public record Oportunidad(
+    Long id_oportunidad,
+    Long id_responsable,
+    Long id_organizacion,
+    Long id_contacto_principal,
+    String nombre_oportunidad,
+    String tipo_oportunidad,
+    String descripcion,
+    String fuente_informacion,
+    String fecha_deteccion,
+    String prioridad,
+    String potencial_comercial,
+    String estado,
+    String fecha_inicio,
+    String fecha_termino,
+    String horario,
+    String ubicacion_general,
+    String comuna,
+    String region,
+    String publico_esperado,
+    String publico_objetivo,
+    Long cantidad_asistentes_estimada,
+    String condiciones_participacion,
+    String costos_referenciales,
+    String requisitos,
+    String espacios_disponibles,
+    String historial_observaciones,
+    String fecha_ultima_actualizacion
+) {}
